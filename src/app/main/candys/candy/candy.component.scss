@@ -1,0 +1,32 @@
+.content {
+  padding: 15px;
+  span {
+    width: 70px;
+    height: 70px;
+    background-size: 100px;
+    display: flex;
+    &.circle {
+      border-radius: 50%;
+      background-color: yellow;
+      box-shadow: 0 0 4px;
+    }
+    &.square {
+      border-radius: 5px;
+      background-color: #ff8855;
+      box-shadow: 0 0 4px;
+    }
+    &.triangle {
+      width: 0;
+      height: 0;
+      border-left: 35px solid transparent;
+      border-right: 35px solid transparent;
+      border-bottom: 70px solid #24c663;
+    }
+    &.diamond {
+      border-radius: 5px;
+      background-color: #4aa7ff;
+      box-shadow: 0 0 4px;
+      transform: rotatez(45deg);
+    }
+  }
+}
